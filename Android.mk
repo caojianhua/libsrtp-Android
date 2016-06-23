@@ -10,6 +10,7 @@ endif
 LOCAL_SRC_FILES := \
     srtp/srtp.c \
     srtp/ekt.c \
+		srtp/rtp.c \
     crypto/cipher/cipher.c \
     crypto/cipher/null_cipher.c \
     crypto/cipher/aes.c \
